@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="../../cssBigPart/main_menu_bar.css">
+    <link rel="stylesheet" href="../../fonds/fonds.css">
+    <link rel="shortcut icon" href="../img/LogoSite.png" type="image/png">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(67325452, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/67325452" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <style media="screen">
+    body{
+      display: flex;
+    }
+    #boss_cont{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #info_part{
+      margin: 8% 0 5% 0;
+      width: 75%;
+    }
+
+    #info_part h1, h2{
+      text-align: center;
+      color: #00a5ff;
+      margin: 40px 0 20px;
+      font-family: BaufraBold;
+    }
+    #info_part p, li{
+      font-family: BaufraDemiBold;
+    }
+    #info_part .bottom_text{
+      border-radius: 10px;
+      padding: 20px 15px;
+      box-shadow: 0px 0px 20px 5px rgba(153,153,153,0.4);
+    }
+
+    .baufra_demi_bold_fm{
+      font-family: BaufraDemiBold;
+    }
+    .color_999999{
+      color: #999999;
+    }
+    .mob_vers_up_bar_contentet_cont{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    @media screen and (max-device-width: 500px){
+      #info_part h1{
+          font-size: 65px;
+      }
+      #info_part h2{
+        font-size: 55px;
+      }
+      #info_part h1, h2{
+        margin-top: 100px;
+      }
+      #info_part .bottom_text{
+        padding: 50px 40px;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <header id="headear_cont">
+          <div id="header_cont_menu">
+            <div class="mob_vers_up_bar_contentet_cont display_flex">
+              <button type="button" name="button" id="mov_vers_header_menu_btn" class="menu_left" onclick="menuBtnMobVers()">
+                <div class="menu_icon_mov_vers"></div>
+                <div class="menu_icon_mov_vers"></div>
+                <div class="menu_icon_mov_vers"></div>
+              </button>
+            </div>
+            <div class="mob_vers_up_bar_contentet_cont display_flex">
+              <div class="cont_for_main_cont_lang" id="btn_languace_move_mob_vers">
+                <div class="main_cont_lang" onclick="document.location='../../advantages/index.html'">
+                      <div class="lang_content lang_content_ro">
+                           ro
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="mob_vers_up_bar_contentet_cont display_flex">
+              <img src="../img/logo.png" itemprop="image" alt="amigo car" id="logo_img" onclick="document.location='../index.html'">
+            </div>
+                <div id="cont_for_menu_btn">
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../index.html'">Pagina principală</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../how_to_use/index.html'">Cum de utilizat</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../FAQ/index.html'">FAQ</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../contract/index.html'">Contracte</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <!-- <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../tarifs/index.html'">Tarife</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div> -->
+                        <div class="menu_btn_header">
+                                <button id="header_menu_btn_color_black" class="baufra_demi_bold_fm" onclick="document.location='#'">Avantaje</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../promo/index.html'">Vânzări</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../contact/index.html'">Contacte</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header cont_for_main_cont_lang" id="btn_languace_move">
+                          <div class="main_cont_lang" onclick="document.location='../../advantages/index.html'">
+                                <div class="lang_content lang_content_ro">
+                                     ro
+                                </div>
+                          </div>
+                        </div>
+                  </div>
+                  <!-- <div class="promotion_case promotion_case_pc">
+                      <img src="../img/prom_ro.png" alt="">
+                  </div> -->
+                </div>
+                <!-- <div class="conteiner_big_prommo">
+                    <div class="img_close_conteiner">
+                        <img src="../img/big_prom_ro.png" alt="" id="big_promo_photo">
+                        <div class="close_conteiner">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="home_page_promo_act" class="home_inactiv_promo"></div> -->
+          </div>
+    </header>
+      <main id="boss_cont">
+          <img src="img/adv_ro.png" alt="">
+          <div id="info_part">
+              <h1>
+                  Ce este carsharing ?
+              </h1>
+              <p class="bottom_text">
+                Carsharing – chirie pe termen scurt a automobilului, cu tarificare pe minut, ore și zi. Acest serviciu devine tot mai (popular), în special în rîndul persoanelor care își apreciază timpul și confortul în călătorii. Dvs puteți utiliza automobilul pentru navetă, călătorie, spre muncă și alte scopuri, cu excepția celor comerciale.
+
+              </p>
+              <h2>
+                Explicația cuvîntului „carsharing”
+              </h2>
+              <p class="bottom_text">
+                Acum cîțiva ani puțini cunoșteau acest cuvînt. Acum, acest serviciu este unul dintre cele mai solicitate tipuri de închiriere auto din lume.
+                Cum se traduce carsharing din engleză ? Acest cuvînt este format din car – automobil, și sharing – utilizare comună. Reieșind din definiție, acest serviciu oferă posibilitatea de a închiria automobilul pe un termen anumit, pentru călătorii interurbane.
+              </p>
+              <h2>
+                Cum funcționează carsharing-ul ?
+              </h2>
+                <p class="bottom_text">
+                  Datorită unui astfel de serviciu, Dvs puteți ușor și rapid să deveniți proprietar temporar a automobilului oriunde în oraș.
+                  Ce trebuie să știți despre acest serviciu înainte de a-l utiliza ? <br>
+                  Rezervarea, pornirea și retunarea automobilului sunt automatizate și se realizează cu ajutorul aplicației mobile pe care o are fiecare companie de carsharing.
+                  După înregistrarea și aprobarea profilului în aplicația din smartphone, Dvs puteți găsi pe hartă cel mai apropiat automobil și să-l rezervați. Veți avea la dispoziție 10 minute gratuite, care sunt sufieciente pentru a ajunge la automobil.
+                  După expirarea timpului de utilizare, puteți întoarce automobilul la locul de pornire sau să îl parcați în orice loc permis de serviciu, unde va putea fi închiriată de alt utilizator.
+                </p>
+                <h2>
+                  Avantajele și dezavantajele carsharing-ului
+                </h2>
+                <div class="bottom_text">
+                <p>
+                  Principalul avantaj al acestui serviciu – economie pînă la 70% în comparație cu întreținerea și exploatarea propriului automobil. Fără dubii, răspunsul la întrebarea dacă carsharingul este rentabil – este afirmativ.
+                  Datorită acestui serviciu, Dvs sunteți scutit de cheltuieli pentru :
+                </p>
+                <ul>
+                    <li>parcare</li>
+                    <li>alimentare</li>
+                    <li>asigurare</li>
+                    <li>spălătorie</li>
+                    <li>impozite</li>
+                    <li>revizie tehnică</li>
+                </ul>
+                <p>
+                  În locul unui automobil personal, aveți la dispoziție o flotă întreagă de automobile.
+                  Închirierea automobilului este posibilă la orice oră, 7 zile pe săptămînă.
+                  Dezavantajele carsharing-ului:
+                </p>
+                <ul>
+                  <li>nu puteți păstra în automobil lucrurile personale după finisarea închirierii</li>
+                  <li>zonă de călătorie și parcare limitată</li>
+                </ul>
+                <p>
+                  Pentru a evita acuzațiile de utilizare incompetentă a automobilului, după ce l-ați închiriat, înregistrați orice daune și alte nuanțe.
+                  Atunci când alegeți între automobil personal și automobilul carsharing-ului, luați în considerare propriile nevoi și capacități. Dacă ești o persoană activă și apreciezi fiecare minut din viața ta, în timp ce nu ai bani în plus, folosește carsharing-ul, dacă este necesar.
+
+                </p>
+              </div>
+          </div>
+      </main>
+
+      <!-- <div class="promotion_case promotion_case_mob">
+          <i class="fas fa-gift"></i>
+      </div> -->
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" charset="utf-8"></script>
+      <script src="https://kit.fontawesome.com/37ebf6e62f.js" crossorigin="anonymous"></script>
+      <!-- <script type="text/javascript" src="../../jsBigPart/promo.js"></script> -->
+      <script src="../../jsBigPart/part.js"></script>
+  </body>
+</html>

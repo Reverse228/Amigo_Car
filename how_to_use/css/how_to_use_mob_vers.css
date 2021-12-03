@@ -1,0 +1,29 @@
+@media screen and (max-device-width: 930px){
+  #only_for_photo{
+    display: none;
+  }
+}
+@media screen and (max-device-width: 500px){
+  /*      MAIN        */
+  #boss_cont{
+    height: auto;
+  }
+  #main_name_of_page{
+    font-size: 50px;
+    padding: 5% 0 2% 5%;
+    font-size: 60px;
+  }
+  .nr_of_info{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    top: -60px;
+  }
+  .upper_text_and_nr h3{
+    font-size: 40px;
+  }
+  .info_about_using p{
+    font-size: 16px;
+  }
+
+}

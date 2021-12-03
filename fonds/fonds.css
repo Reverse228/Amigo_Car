@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Baufra;
+  src:url('../fonds/Baufra/Baufra.otf');
+}
+@font-face {
+  font-family: BaufraBold;
+  src:url('../fonds/Baufra/BaufraBold.otf');
+}
+@font-face {
+  font-family: BaufraDemiBold;
+  src:url('../fonds/Baufra/BaufraDemiBold.otf');
+}
+@font-face {
+  font-family: BaufraLight;
+  src:url('../fonds/Baufra/BaufraLight.otf');
+}
+
+@font-face {
+  font-family: BaufraMedium;
+  src:url('../fonds/Baufra/BaufraMedium.otf');
+}
+
+@font-face {
+  font-family: BaufraSemiBold;
+  src:url('../fonds/Baufra/BaufraSemiBold.otf');
+}

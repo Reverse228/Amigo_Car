@@ -1,0 +1,75 @@
+@media screen and (max-device-width: 1050px){
+  /*     MAIN      */
+
+  #main_cont{
+    background-image: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #main_name_of_page{
+    padding: 5% 0 2% 5%;
+    font-size: 60px;
+  }
+  #info_part{
+    width: 90%;
+    padding: 5% 0 0 0;
+    text-align: center;
+  }
+  #info_part p{
+    font-size: 23px;
+  }
+  #info_part h3{
+    font-size: 30px;
+  }
+  #info_part h2{
+    font-size: 40px;
+  }
+  #info_part h1{
+    font-size: 50px;
+  }
+  #photo_part{
+    display: block;
+  }
+  #photo_part img{
+    width: 100%;
+    height: auto;
+  }
+  .cont_for_number{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont_for_number a{
+    margin-left: 50px;
+  }
+  #link_cont{
+    margin: 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini_cont_link{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mini_cont_link a{
+    margin: 5px 0;
+  }
+  .mini_cont_link a img{
+    width: 300px;
+    height: auto;
+  }
+  #down_link_cont img{
+    width: 300px;
+    height: auto;
+  }
+  #up_up_link, #down_up_link{
+     margin-right: 0px;
+  }
+
+}

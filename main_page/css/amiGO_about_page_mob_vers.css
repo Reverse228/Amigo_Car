@@ -1,0 +1,499 @@
+/* @media screen and (max-device-width: 1750px){
+  body{
+    flex-direction: column;
+  }
+  #part_two_of_mini_cont_for_main_footer_contact_info{
+    flex-direction: column;
+    align-items: center;
+  }
+  #headear_cont{
+    width: 100%;
+    height: 100px;
+  }
+  #header_cont_menu{
+    display: flex;
+    position: fixed;
+    top: 0;
+    margin:0;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    z-index: 100;
+    -webkit-box-shadow: 0px 5px 20px 2px rgba(132,132,132,0.65);
+    box-shadow: 0px 5px 20px 2px rgba(132,132,132,0.65);
+  }
+  #mov_vers_header_menu_btn{
+    display: none;
+  }
+  #cont_for_menu_btn{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .menu_btn_header{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+  .menu_btn_header button{
+    background: transparent;
+    border: none;
+    transition: 0.5s;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 2px;
+    position: relative;
+    font-size: 15px;
+    outline: none;
+    margin: 0 10px;
+    font-family: BaufraDemiBold;
+    color: #999999;
+  }
+  #logo_img{
+    cursor: pointer;
+  }
+  #header_menu_btn_color_black{
+    color: black;
+  }
+  .hover_btn_header_menu{
+    display: none;
+  }
+  .menu_btn_header button:hover{
+    color: #00a5ff;
+  }
+  #logo_img{
+    margin: 0 80px 0 40px;
+  }
+
+} */
+@media screen and (max-device-width: 1800px) {
+  #car_img_part_one_of_main_main_header_cont{
+    top: 45%;
+  }
+}
+@media screen and (max-device-width: 1600px) {
+  /* #headear_cont{
+    width: 100%;
+    height: 100px;
+  }
+  #header_cont_menu{
+    top: 0;
+    margin:0;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    z-index: 100;
+    -webkit-box-shadow: 0px 5px 20px 2px rgba(132,132,132,0.65);
+    box-shadow: 0px 5px 20px 2px rgba(132,132,132,0.65);
+  }
+  #logo_img{
+    margin: 0 40px;
+  }
+  #cont_for_menu_btn{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .menu_btn_header{
+    display: flex;
+    flex-direction: row;
+  }
+  .menu_btn_header button{
+    margin: 0 10px;
+  }
+  .hover_btn_header_menu{
+    display: none;
+  }
+  .menu_btn_header button:hover{
+    color: #00a5ff;
+  } */
+  #car_amiGO_main_header_part img{
+    width: 480px;
+    height: 212px;
+  }
+  #link_main_footer_licensy_cont{
+    flex-direction: column;
+  }
+  #main_footer_part_two_licency_info h3{
+    margin: 5px;
+  }
+  #link_main_footer_licensy_cont a{
+    margin: 5px 0;
+  }
+  .cont_info_rent_offer{
+    width: 90%;
+  }
+  #cont_info_rent_offer_top{
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px rgba(153,153,153,0.4);
+  }
+  #cont_info_rent_offer_top .rent_offer_info{
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+}
+
+
+
+@media screen and (max-device-width: 1200px){
+    #cont_info_rent_offer_top{
+      flex-direction: column;
+      box-shadow: none;
+    }
+    #cont_for_all_tarif_info_beside_mob_vers{
+      box-shadow: 0px 0px 20px 5px rgba(153,153,153,0.4);
+      border-radius: 25px;
+      margin-bottom: 30px;
+    }
+    #pc_vers_tarif_info{
+      display: none;
+    }
+    #half_mob_vers_tarif_info{
+      display: block;
+      width: 100%;
+      border-radius: 25px;
+      box-shadow: 0px 0px 20px 5px rgba(153,153,153,0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #car_img_part_one_of_main_main_header_cont{
+      top: 45%;
+      width: 555px;
+      height: 312px;
+    }
+}
+#part_two_of_mini_cont_for_main_footer_contact_info{
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-device-width: 1030px){
+  /* #logo_img{
+    width: 180px;
+    height: auto;s
+  }
+  .menu_btn_header button{
+    margin: 0 5px;
+    font-size: 16px;
+  } */
+  #main_header_text_top_cont_h1{
+    width: 40%;
+  }
+  #footer_main_main_link, #footer_main_main_mini_cont_for_link_dow{
+    width: 60%;
+  }
+  #footer_main_main_mini_cont_for_link_dow{
+    width: 60%;
+  }
+  #car_amiGO_main_header_part{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: auto;
+    padding-right: 15px;
+  }
+  .etap_of_work_blue_cont{
+    width: 65px;
+    height: 65px;
+  }
+
+  .main_main_main_part_two_blue_cont{
+    width: 100px;
+    height: 100px;
+  }
+  .main_main_main_part_two_blue_cont img{
+    width: 60px;
+    height: 60px;
+  }
+  #info_for_part_one_of_main_main_main_cont{
+    margin-left: 50px;
+  }
+}
+@media screen and (max-device-width: 600px){
+  /* #headear_cont{
+    height: 150px;
+  }
+  #header_cont_menu{
+    justify-content: space-between;
+    height: 150px;
+  }
+  #mov_vers_header_menu_btn{
+    display: inline;
+    position: relative;
+    border: none;
+    outline: none;
+    margin: 0 50px;
+    background: none;
+  }
+  .menu_icon_mov_vers{
+    width: 60px;
+    height: 6px;
+    background-color: black;
+    margin: 10px 0;
+  }
+  #logo_img{
+    width: 300px;
+    height: auto;
+
+  }
+  #cont_for_menu_btn{
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    left: -100%;
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 20px 2px rgba(132,132,132,0.65);
+    box-shadow: 0px 5px 20px 2px rgba(132,132,132,0.65);
+  }
+  .menu_btn_header{
+    margin: 30px 0;
+    padding: 5px 45px;
+  }
+  .menu_btn_header button{
+    font-size: 30px;
+  } */
+
+
+  #mini_cont_in_main_headear_text_cont #main_header_text_top_cont_h1{
+    font-size: 55px;
+    width: 180%;
+  }
+  #main_headear_text_cont{
+    padding-bottom: 80px;
+    margin-left: 50px;
+  }
+  #mini_cont_in_main_headear_text_cont{
+     width: 100%;
+  }
+  #main_header_text_top_cont_h1{
+    margin-bottom: 50px;
+  }
+  .dow_btn_main_header img{
+    width: 200px;
+    height: auto;
+  }
+  #rent_offer_cont{
+    flex-direction: column;
+  }
+  #mini_cont_in_main_headear_text_cont p{
+    position: absolute;
+    margin-top: 110px;
+    text-align: center;
+  }
+  .cont_info_rent_offer{
+    width: 60%;
+    flex-direction: column;
+  }
+  #cont_info_rent_offer_top{
+    border-radius: 0;
+    box-shadow: none;
+  }
+  #cont_info_rent_offer_top .rent_offer_info{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px rgba(153,153,153,0.4);
+  }
+  #first_part_of_main_main_header p{
+    font-size: 30px;
+  }
+  .cont_for_tarif_info_main_page{
+    width: 100%;
+  }
+  .rent_offer_info{
+    margin: 30px 0;
+    width: 100%;
+  }
+  .rent_offer_info h1{
+    font-size: 45px;
+  }
+
+  #cont_for_all_tarif_info_beside_mob_vers{
+    box-shadow: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  #pc_vers_tarif_info{
+    display: block;
+  }
+  #half_mob_vers_tarif_info{
+    display: none;
+  }
+
+
+  #how_work_carharing_mai_main_header{
+    font-size: 25px;
+  }
+
+  .mob_vers_etap_of_work_hr{
+      width: 1px;
+      height: 100%;
+      border-left: 1px solid #999999;
+      border-radius: 25px;
+  }
+  #info_about_registration_name{
+    font-size: 40px;
+  }
+  #info_about_registration_top_part, #info_about_registration_bottom_part, .dop_info p{
+    font-size: 26px;
+  }
+  .dop_info b{
+    font-size: 30px;
+  }
+  /* #info_for_part_one_of_main_main_main_cont{
+    width: auto;
+  } */
+  #car_img_part_one_of_main_main_header_cont{
+    top: 80%
+  }
+  #main_main_header_etap_of_work_carsharings{
+    margin-bottom: 50px;
+  }
+  #info_for_part_one_of_main_main_main_cont h1{
+    font-size: 50px;
+  }
+  #green_cont_in_part_one_of_main_main_main_cont{
+    width: 80%;
+    top: -45px;
+  }
+  #green_cont_in_part_one_of_main_main_main_cont p{
+    font-size: 20px;
+  }
+  .info_about_car{
+    position: absolute;
+    font-size: 26px;
+  }
+  #part_two_of_main_main_main_cont_text_top{
+    font-size: 30px;
+  }
+
+
+  .main_main_main_part_two_blue_cont {
+    width: 200px;
+    height: 200px;
+  }
+  .main_main_main_part_two_blue_cont img{
+    width: 130px;
+    height: 130px;
+  }
+  .info_cont_main_main_main p{
+    font-size: 35px;
+  }
+  #main_main_footer_cont_text_top{
+    font-size: 25px;
+  }
+  #info_about_client_in_main_main_footer_cont{
+    flex-direction: column;
+  }
+  .info_about_client{
+    width: 100%;
+  }
+  .info_about_client h1{
+    font-size: 60px;
+  }
+  .info_about_client p{
+    font-size: 35px;
+  }
+  #footer_main_main_link, #footer_main_main_mini_cont_for_link_dow{
+    width: 70%;
+  }
+  #footer_main_main_link{
+    font-size: 40px;
+  }
+  #footer_main_main_mini_cont_for_link_dow a{
+    margin: 40px 0 0 0;
+  }
+  #footer_main_main_mini_cont_for_link_dow img{
+    width: 250px;
+    height: auto;
+  }
+  #footer_main_main_cont_link_for_dow_app a:hover{
+    width: 85%;
+  }
+  #second_part_of_main_main_header_part_need_for_mob_vers{
+      text-align: center;
+      margin: 0 5% 0 0;
+      width: 70%;
+  }
+  #margin_main_footer_info{
+    margin: 0;
+  }
+  #main_footer_part_one_contact_info{
+    flex-direction: column;
+    width: 100%;
+  }
+  .mini_cont_for_main_footer_contact_info{
+    text-align: center;
+  }
+  .mini_cont_for_main_footer_contact_info h1{
+    font-size: 45px;
+  }
+  .mini_cont_for_main_footer_contact_info p{
+    font-size: 25px;
+  }
+  .cont_for_info_and_link_in_main_footer{
+    flex-direction: column;
+    margin: 0;
+  }
+  .text_cont_for_mob_vers_in_main_footer_part{
+    flex-direction: column
+  }
+  .text_cont_for_mob_vers_in_main_footer_part p{
+    font-size: 35px;
+  }
+  .number_and_time{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+  }
+  .text_cont_for_mob_vers_in_main_footer_part .tel_and_time_work{
+    font-size: 25px;
+    top: -30px;
+  }
+  .text_cont_for_mob_vers_in_main_footer_part .nr_service_info{
+    font-size: 45px;
+  }
+  #main_footer_part_two_licency{
+    margin: 50px 0 50px 40px;
+  }
+  #main_footer_part_two_licency_info h3{
+    font-size: 25px;
+  }
+  #link_main_footer_licensy_cont a{
+    font-size: 20px;
+  }
+  #main_footer_part_two_licency_link a img{
+    width: 55px;
+    height: auto;
+  }
+  #main_footer_part_three_link{
+    justify-content: center;
+  }
+  .btn_link_in_main_footer img{
+    width: 75px;
+    height: 75px;
+  }
+  #main_footer_part_three_link a:first-child {
+    margin: 0 50px 0 0;
+  }
+  #main_footer_part_three_link a:last-child{
+    margin: 0;
+  }
+  #main_footer_part_three_link a img{
+    width: 200px;
+    height: auto;
+  }
+  .link_for_tarifs{
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+}

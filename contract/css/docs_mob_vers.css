@@ -1,0 +1,19 @@
+@media screen and (max-device-width: 1370px) {
+  .btn_cont{
+    width: 50%;
+  }
+}
+@media screen and (max-device-width: 500px){
+  .btn_cont{
+    width: 80%;
+  }
+  .btn_cont p{
+    font-size: 50px;
+  }
+  .btn_cont button{
+    font-size: 40px;
+  }
+  #name_of_faq, .btn_cont a{
+    font-size: 25px;
+  }
+}

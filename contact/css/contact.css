@@ -1,0 +1,105 @@
+/*       MAIN            */
+
+#boss_cont{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#main_name_of_page{
+  width: 95%;
+  margin: 0;
+  padding: 2% 0 2% 5%;
+  border-bottom: 1px solid #999999;
+  font-family: BaufraSemiBold;
+}
+#main_cont{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url(../img/map.png);
+}
+#info_part{
+  width: 100%;
+  padding: 5% 0 0 5%;
+}
+#block_of_info p{
+  margin: 2px 0;
+}
+.color_blue{
+  color: #00a5ff;
+}
+#part_top_with_nr{
+  margin: 50px 0 15px 0;
+}
+.cont_for_number{
+  display: flex;
+}
+.tel_and_time_work{
+  position: relative;
+  left: 10px;
+  top: -10px;
+  font-family: BaufraDemiBold;
+}
+
+#part_bottom_with_nr{
+  margin: 15px 0 50px 0;
+}
+.number_link{
+  text-decoration: none
+}
+#mail_1{
+  margin: 0 0 25px 0;
+}
+.margin_text p, h3, h2, h1{
+  margin: 5px 0;
+}
+#link_cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:  flex-start;
+  flex-direction: column;
+  margin: 5% 0 0 2%;
+}
+.mini_cont_link{
+  width: 100%;
+  display: flex;
+}
+.mini_cont_link a{
+  position: relative;
+  top: 0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.mini_cont_link a:hover{
+  top: -5px;
+}
+#up_link_cont{
+  margin: 0 0 20px 0;
+}
+#up_up_link, #down_up_link{
+   margin-right: 20px;
+}
+#down_link_cont img{
+  width: 150px;
+  height: auto;
+}
+#photo_part{
+  display: none;
+}
+/*         REPEAT CODE        */
+
+.display_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.baufra_demi_bold_fm{
+  font-family: BaufraDemiBold;
+}
+.color_999999{
+  color: #999999;
+}

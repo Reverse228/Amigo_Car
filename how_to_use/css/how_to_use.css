@@ -1,0 +1,86 @@
+/*         MAIN            */
+
+#boss_cont{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#main_name_of_page{
+  width: 95%;
+  margin: 0 0 3% 0;
+  padding: 2% 0 2% 5%;
+  border-bottom: 1px solid #999999;
+  font-family: BaufraSemiBold;
+}
+#main_cont{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#only_info_cont{
+  flex-direction: column;
+
+}
+.cont_for_info{
+  width: 70%;
+  flex-direction: column;
+  padding: 0px 50px 20px 50px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0px 0px 20px 5px rgba(153,153,153,0.4);
+}
+.upper_text_and_nr{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.upper_text_and_nr h3{
+  color: #00a5ff;
+  font-family: BaufraBold;
+  font-size: 25px;
+}
+.nr_of_info{
+  background-color: #00a5ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: -40px;
+  left: 30px;
+  font-family: BaufraBold;
+}
+.info_about_using p{
+  margin: 2px 0;
+  font-family: BaufraDemiBold;
+}
+
+#only_for_photo{
+  width: 40%;
+  position: relative;
+  left: -20%;
+  display: flex;
+}
+#only_for_photo img{
+  position: relative;
+  width: 800px;
+  height: 734px;
+}
+
+/*         REPEAT CODE        */
+
+.display_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.baufra_demi_bold_fm{
+  font-family: BaufraDemiBold;
+}
+.color_999999{
+  color: #999999;
+}

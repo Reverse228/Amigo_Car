@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="../cssBigPart/main_menu_bar.css">
+    <link rel="stylesheet" href="../fonds/fonds.css">
+    <link rel="shortcut icon" href="../img/LogoSite.png" type="image/png">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(67325452, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/67325452" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <style media="screen">
+    body{
+      display: flex;
+    }
+    #boss_cont{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #info_part{
+      margin: 8% 0 5% 0;
+      width: 75%;
+    }
+
+    #info_part h1, h2{
+      text-align: center;
+      color: #00a5ff;
+      margin: 40px 0 20px;
+      font-family: BaufraBold;
+    }
+    #info_part p, li{
+      font-family: BaufraDemiBold;
+    }
+    #info_part .bottom_text{
+      border-radius: 10px;
+      padding: 20px 15px;
+      box-shadow: 0px 0px 20px 5px rgba(153,153,153,0.4);
+    }
+
+    .baufra_demi_bold_fm{
+      font-family: BaufraDemiBold;
+    }
+    .color_999999{
+      color: #999999;
+    }
+    .mob_vers_up_bar_contentet_cont{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    @media screen and (max-device-width: 500px){
+      #info_part h1{
+          font-size: 65px;
+      }
+      #info_part h2{
+        font-size: 55px;
+      }
+      #info_part h1, h2{
+        margin-top: 100px;
+      }
+      #info_part .bottom_text{
+        padding: 50px 40px;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <header id="headear_cont">
+          <div id="header_cont_menu">
+            <div class="mob_vers_up_bar_contentet_cont display_flex">
+              <button type="button" name="button" id="mov_vers_header_menu_btn" class="menu_left" onclick="menuBtnMobVers()">
+                <div class="menu_icon_mov_vers"></div>
+                <div class="menu_icon_mov_vers"></div>
+                <div class="menu_icon_mov_vers"></div>
+              </button>
+            </div>
+            <div class="mob_vers_up_bar_contentet_cont display_flex">
+              <div class="cont_for_main_cont_lang" id="btn_languace_move_mob_vers">
+                <div class="main_cont_lang" onclick="document.location='../ro/advantages/index.html'">
+                      <div class="lang_content lang_content_ru">
+                           ru
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="mob_vers_up_bar_contentet_cont display_flex">
+              <img src="../img/logo.png" itemprop="image" alt="amigo car" id="logo_img" onclick="document.location='../index.html'">
+            </div>
+                <div id="cont_for_menu_btn">
+                        <div class="menu_btn_header">
+                                <button  class="baufra_demi_bold_fm color_999999" onclick="document.location='../index.html'">Главная</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../how_to_use/index.html'">Как пользоваться</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../FAQ/index.html'">FAQ</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../contract/index.html'">Договора</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <!-- <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../tarifs/index.html'">Тарифы</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div> -->
+                        <div class="menu_btn_header">
+                                <button id="header_menu_btn_color_black" class="baufra_demi_bold_fm" onclick="document.location='#'">Преимущества</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../promo/index.html'">Продажи</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header">
+                                <button class="baufra_demi_bold_fm color_999999" onclick="document.location='../contact/index.html'">Контакты</button>
+                                <div class="hover_btn_header_menu"></div>
+                        </div>
+                        <div class="menu_btn_header cont_for_main_cont_lang" id="btn_languace_move">
+                          <div class="main_cont_lang" onclick="document.location='../ro/advantages/index.html'">
+                                <div class="lang_content lang_content_ru">
+                                     ru
+                                </div>
+                          </div>
+                        </div>
+                  </div>
+                  <!-- <div class="promotion_case promotion_case_pc">
+                      <img src="../img/prom_ru.png" alt="">
+                  </div> -->
+                </div>
+                <!-- <div class="conteiner_big_prommo">
+                    <div class="img_close_conteiner">
+                        <img src="../img/big_prom_ru.png" alt="" id="big_promo_photo">
+                        <div class="close_conteiner">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="home_page_promo_act" class="home_inactiv_promo"></div> -->
+          </div>
+    </header>
+      <main id="boss_cont">
+          <img src="img/adv_ru.png" alt="">
+          <div id="info_part">
+              <h1>
+                  Что такое каршеринг?
+              </h1>
+              <p class="bottom_text">
+                Каршеринг — это кратковременная аренда автомобиля с поминутной, почасовой и с суточной тарификацией. Данная услуга становится все более популярной, особенно среди людей, ценящих свое время и комфорт передвижения. Вы можете использовать каршеринговое авто для поездок на работу, путешествий и прочих целей, за исключением коммерческих.
+              </p>
+              <h2>
+                Значение слова «каршеринг»
+              </h2>
+              <p class="bottom_text">
+                Еще несколько лет назад мало кто слышал такое слово. Сегодня же данный сервис является одним из наиболее востребованных разновидностей проката авто в мире.
+                Как переводится «каршеринг» с английского? Это слово можно разложить на car, переводящееся как «автомобиль», и sharing — «совместное пользование». Исходя из названия, данная услуга предоставляет возможность арендовать машину на определенное время для внутригородских поездок.
+              </p>
+              <h2>
+                Как работает каршеринг?
+              </h2>
+                <p class="bottom_text">
+                  Благодаря такому удобному сервису вы сможете легко и быстро стать временным владельцем авто в любой точке города.
+                  Что нужно знать об этом сервисе перед началом пользования? <br>
+                  Бронирование, получение, возвращение машины автоматизировано и осуществляется с помощью специального приложения, которое имеет каждая каршеринговая компания. После регистрации и одобрения вашего профиля через смартфон вы сможете найти на карте ближайший автомобиль и забронировать его. После подтверждения аренды начнется отсчет времени. У вас в запасе будет 10 бесплатных минут, которых достаточно, чтобы найти машину на стоянке.
+                  По истечении времени пользования можно вернуть авто на место или спокойно оставить на любой разрешенной парковке, где его заберет следующий арендатор.
+                </p>
+                <h2>
+                  Плюсы и минусы каршеринга
+                </h2>
+                <div class="bottom_text">
+                <p>
+                  Основное преимущество данного сервиса — экономия до 70% средств по сравнению с содержанием и эксплуатацией личного автомобиля. Без сомнений, ответить на вопрос, выгоден ли каршеринг, можно утвердительно.
+                  Благодаря этой услуге вы избавляетесь от расходов на:
+                </p>
+                <ul>
+                    <li>парковку</li>
+                    <li>заправку</li>
+                    <li>страховку</li>
+                    <li>мойку</li>
+                    <li>транспортный налог</li>
+                    <li>техническое обслуживание</li>
+                </ul>
+                <p>
+                  Вместо одного личного авто в вашем распоряжении целый автопарк. Арендовать машину можно независимо от времени суток 7 дней в неделю.
+                  Недостатки каршеринга:
+                </p>
+                <ul>
+                  <li>в автомобиле нельзя хранить личные вещи по завершении аренды</li>
+                  <li>ограниченная зона передвижения и парковки</li>
+                </ul>
+                <p>
+                  Во избежание обвинений в некомпетентном использовании после взятия машины зафиксируйте имеющиеся повреждения и другие нюансы.
+                  Выбирая, что лучше: каршеринг или личный автомобиль, учтите собственные нужды и возможности. Если вы активный человек и цените каждую минуту своей жизни, при этом не имеете лишних денег, воспользуйтесь при необходимости выгодной арендой машин. При нежелании делить транспорт с посторонними лучше приобрести собственное авто.
+                </p>
+              </div>
+          </div>
+      </main>
+
+      <!-- <div class="promotion_case promotion_case_mob">
+          <i class="fas fa-gift"></i>
+      </div> -->
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" charset="utf-8"></script>
+      <script src="https://kit.fontawesome.com/37ebf6e62f.js" crossorigin="anonymous"></script>
+      <!-- <script type="text/javascript" src="../jsBigPart/promo.js"></script> -->
+      <script src="../jsBigPart/part.js"></script>
+  </body>
+</html>

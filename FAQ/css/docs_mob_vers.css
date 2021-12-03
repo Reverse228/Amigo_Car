@@ -1,0 +1,32 @@
+@media screen and (max-device-width: 500px){
+  /* MAIN */
+
+  #main_name_of_page{
+    padding: 5% 0 2% 5%;
+    font-size: 65px;
+  }
+  .name_of_part{
+    font-size: 40px;
+  }
+  .main_mini_cont_of_info{
+    width: 85%;
+    padding: 10px 50px;
+  }
+  .name_of_info{
+    font-size: 35px;
+    margin-right: 40px;
+  }
+  .arrow_mov{
+    width: 35px;
+    height: 35px;
+    border-top: 4px solid #00a5ff;
+    border-left: 4px solid #00a5ff;
+  }
+  .arrow_mov:hover{
+    width: 35px;
+    height: 35px;
+  }
+  .concret_info p, .concret_info a, .cont_for_text_in_bottom p, .cont_for_text_in_bottom a{
+    font-size: 12px;
+  }
+}
